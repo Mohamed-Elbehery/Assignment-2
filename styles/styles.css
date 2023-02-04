@@ -61,7 +61,7 @@ header nav ul li {
 /* End of Header Styles */
 /* Start of Landing Styles */
 section.landing {
-  margin: 1rem 0 0 0.3rem;
+  margin: 0.5rem 0 0 0.3rem;
 }
 
 section.landing .cards .card {
@@ -72,6 +72,7 @@ section.landing .cards .card {
   margin-left: 1rem;
   background-size: cover;
   background-position: center;
+  margin-top: 1rem;
 }
 
 /*! Used a class because we didn't learn the pseudo elements yet :D or js */
