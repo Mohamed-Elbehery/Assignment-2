@@ -110,7 +110,7 @@ section.landing .search-bar {
 }
 
 section.landing .search-bar img {
-  height: 50px;
+  height: 60px;
   border-radius: 50%;
 }
 
@@ -122,10 +122,10 @@ section.landing .search-bar input {
 section.landing .search-bar input {
   margin-left: 0.8rem;
   height: 30px;
-  width: 65%;
+  width: 70%;
   border-radius: 8px;
   padding: 1rem;
-  margin-top: 7.5px;
+  margin-top: 0.7rem;
   outline: none;
 }
 
@@ -140,7 +140,7 @@ section.landing .search-bar input {
   }
 
   section.landing .search-bar input {
-    width: 80%;
+    width: 75%;
   }
 }
 /* End of Landing Styles */
