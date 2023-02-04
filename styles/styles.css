@@ -1,0 +1,146 @@
+/*! General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.clear {
+  clear: both;
+}
+/*! Main Styles */
+/* Start of Header Styles */
+header {
+  padding: 1rem;
+}
+
+header .left-side {
+  float: left;
+}
+
+.left-side img,
+.left-side input {
+  float: left;
+  height: 2rem;
+}
+
+.left-side img {
+  margin-right: 0.8rem;
+}
+
+.left-side input {
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  width: 15rem;
+  outline: none;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  float: left;
+  padding: 0.45rem 0 0 2.8rem;
+}
+/* End of Header Styles */
+/* Start of Landing Styles */
+section.landing {
+  margin: 1rem 0 0 0.3rem;
+}
+
+section.landing .cards .card {
+  float: left;
+  width: 15.7rem;
+  height: 25rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+  background-size: cover;
+  background-position: center;
+}
+
+/*! Used a class because we didn't learn the pseudo elements yet :D or js */
+section.landing .cards .back-1 {
+  background-image: url("../assets/nature-1_5.jpeg");
+}
+
+section.landing .cards .back-2 {
+  background-image: url("../assets/nature-2.jpg");
+}
+
+section.landing .cards .back-3 {
+  background-image: url("../assets/nature-3.jpg");
+}
+
+section.landing .cards .back-4 {
+  background-image: url("../assets/nature-4.jpeg");
+}
+
+section.landing .cards .back-5 {
+  background-image: url("../assets/nature-1_5.jpeg");
+}
+
+section.landing .cards .card img {
+  width: 50px;
+  border-radius: 50%;
+  margin: 1rem 0 0 0.5rem;
+}
+
+section.landing .search-bar {
+  margin-top: 1.5rem;
+  background-color: rgba(128, 128, 128, 0.384);
+  width: 98%;
+  margin-left: 0.5%;
+  border-radius: 4px;
+}
+
+section.landing .search-bar img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+section.landing .search-bar img,
+section.landing .search-bar input {
+  float: left;
+}
+
+section.landing .search-bar input {
+  margin-left: 0.8rem;
+  height: 30px;
+  width: 65%;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 7.5px;
+  outline: none;
+}
+
+/*TODO => ( Media Queries ) */
+@media screen and (min-width: 1920px) {
+  /** Big Screens */
+  section.landing .cards .card {
+    float: left;
+    width: 22.5rem;
+    height: 35rem;
+    background-position: bottom;
+  }
+
+  section.landing .search-bar input {
+    width: 80%;
+  }
+}
+/* End of Landing Styles */
